@@ -6,7 +6,7 @@ public class MaquinaCafe {
 	
 	
 	 void fazerCafe() {
-			fazerCafe(10);
+			this.acucarDisponivel = 30;
 	 }
 	void fazerCafe(int quantidadeAcucar) {
 		if (acucarDisponivel < quantidadeAcucar) {
